@@ -16,13 +16,7 @@ module.exports = {
       iconURL:  message.author.displayAvatarURL({format: "png"}) 
     
     })
-    
-    
-
-
     message.channel.send({ embeds: [msg]})
-
-
   }
 
 }
